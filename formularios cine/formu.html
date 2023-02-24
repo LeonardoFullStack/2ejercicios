@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formu.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <form id="formulario">
+            <div class="formGrid">
+                <label for="titulo">TÍTULO</label>
+                <input id="titulo" type="text" placeholder="Escribe el título">
+            </div>
+            <div class="formGrid">
+                <label for="director">DIRECTOR</label>
+                <input id="director" type="text" placeholder="Escribe el nombre del director">
+            </div>
+            <div class="formGrid">
+                <label for="anio">AÑO</label>
+                <input id="anio" type="text" placeholder="Escribe el año de la película">
+            </div>
+            <div class="formGrid">
+                <label for="genero">Género</label>
+                <select id="genero">
+                    <option>
+                        Selecciona el género
+                    </option>
+                    <option>
+                        Terror
+                    </option>
+                    <option>
+                        Comedia
+                    </option>
+                    <option>
+                        Acción
+                    </option>
+                    <option>
+                        Romántica
+                    </option>
+                </select>
+                <div class="formGrid">
+                    
+                    <button id="enviar">Enviar</button>
+                    <button id="eliminar">Eliminar</button>
+
+                </div>
+            </div>
+        </form>
+</section>
+    <section class="container">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Director</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+
+            </tbody>
+        </table>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

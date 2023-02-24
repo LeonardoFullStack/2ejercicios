@@ -1,0 +1,13 @@
+.formGrid {
+display:grid;
+grid-template-columns: 1fr 3fr;
+}
+
+.container {
+    margin:0 auto;
+    width: 80%;
+}
+
+.tabla {
+    width: 80%;
+}
